@@ -10,7 +10,7 @@
         <p id="user_ip">{{ user_ip }}</p>
     </div>
     <script>
-        fetch('https://lr2back.onrender.com/get-ip')
+        fetch('https://lr2pback.onrender.com/get-ip')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('user_ip').textContent = data.ip;
